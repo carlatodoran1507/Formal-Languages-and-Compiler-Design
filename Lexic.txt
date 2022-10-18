@@ -1,0 +1,28 @@
+﻿Alphabet:
+* upper (A-Z) and lower case letters (a-z) of the English alphabet
+* decimal digits (0-9)
+
+
+1. Special symbols:
+* operators: +  -  *  /  =  ==  !=  !  >  <  >=  <=  %  ++  - -  ^
+* separators: () [ ] { } ;  :
+* res. words: if else while number string let const read print true false for
+
+
+2. Identifiers:
+* a sequence of letters and digits, such that the first character is a letter
+<id> :: = <letter> | <letter><seq_let_digit> 
+<seq_let_digit> :: = <letter><seq_let_digit> | <digit><seq_let_digit>
+<letter> :: = a | b | … | z | A | B | … | Z
+<digit> :: = 0 | 1 | … | 9
+<nozero_digit> :: = 1 | … | 9
+
+
+3. Constants:
+1. number
+<number> :: = 0 | (-|+) <poz_number>
+<all_digits> :: = <digit> | <digit><all_digits> // 0122, 4201, 0
+<poz_number> :: = <nozero_digit> | <nozero_digit><all_digits>
+2. string
+<string> :: = ‘ <letter> | <digit> | <letter><string> | <digit><string> ‘
+3. bool  -  <bool> :: = true | false
