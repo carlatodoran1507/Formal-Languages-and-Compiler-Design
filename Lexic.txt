@@ -12,7 +12,7 @@
 2. Identifiers:
 * a sequence of letters and digits, such that the first character is a letter
 <id> :: = <letter> | <letter><seq_let_digit> 
-<seq_let_digit> :: = <letter><seq_let_digit> | <digit><seq_let_digit>
+<seq_let_digit> :: = <letter><seq_let_digit> | <digit><seq_let_digit> | <letter> | <digit>
 <letter> :: = a | b | … | z | A | B | … | Z
 <digit> :: = 0 | 1 | … | 9
 <nozero_digit> :: = 1 | … | 9

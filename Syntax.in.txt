@@ -1,4 +1,4 @@
-﻿<relation>  :: = < | <= | == | != | >= | > | && |  | |  
+﻿<relation>  :: = < | <= | == | != | >= | > | && | ||  
 <operation> :: = + | - | * | / | % | ^
 <primary_type> :: = number | string | bool
 <array_type> :: = <primary_type> [ ]
@@ -9,7 +9,7 @@
 
 <constant> :: = <number> | <string> | <bool>
 <term> :: = <id> | <constant>
-<term_list> :: = <term> | <term><term_list>;
+<term_list> :: = <term> | <term>  <term_list>;
 <expression> ::= <term> |  <expression><operation><expression> | (<expression><operation><expression>) 
 
 
