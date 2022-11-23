@@ -1,0 +1,42 @@
+﻿The list of all tokes corresponding to the minilanguage:
+
+
+1. +  
+2. -  
+3. *  
+4. / 
+5. =  
+6. ==  
+7. !=
+8. !  
+9. >  
+10. <  
+11. >=
+12.  <=  
+13. %  
+14. ++ 
+15.  - - 
+16. ^
+17. (
+18. ) 
+19. [ 
+20. ] 
+21. { 
+22. } 
+23. ;  
+24. :
+25. if 
+26. else
+27. while 
+28. number 
+29. string 
+30. let 
+31. const 
+32. read 
+33. print 
+34. true 
+35. false
+36. for
+37. &&
+38. ||
+39. @
